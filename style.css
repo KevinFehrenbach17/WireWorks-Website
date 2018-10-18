@@ -1,0 +1,130 @@
+body{
+	background: grey;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+.container{
+	background: white;
+	box-shadow: 10px 10px 10px black;
+	position: static;
+}
+
+
+header{
+	background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(218,218,218,1) 50%, rgba(138,138,138,1) 100%);
+	text-align: center;
+	box-shadow: 5px 5px 5px black;
+	/*border-radius: 7px;*/
+
+
+}
+
+a {
+	padding-right: 7px;
+	padding-left: 7px;
+	
+}
+
+.navi a{
+	text-decoration: none;
+	font-size: 25px;
+	color: green;
+	
+}
+
+
+
+nav a:hover{
+	text-decoration: underline;
+  	color: yellow;
+  	box-shadow: 2px 2px 15px #03A64F inset;
+  	border-radius: 10px;
+  	/*transition-delay:1s;*/
+}
+
+
+.hero{
+	width: 1200px;
+	height: 520px;
+}
+
+h1, h2, h3, a{
+	font-family: 'Oswald', sans-serif;
+	text-shadow: 3px 3px 5px grey;
+	color: green;
+	
+}
+
+h1{
+	font-size: 75px;
+	/*border: solid;
+	border-color: black;*/
+	/*background-color: #ccc;*/
+}
+
+h2{
+	font-size: 50px;
+}
+
+h3{
+	font size: 40px;
+}
+
+li{
+	font-size:22px;
+}
+
+.aboutUs{
+	background: #f0f0f0;
+	box-shadow: 10px 10px 5px grey;
+	border-radius: 10px;
+
+}
+
+.whatWe{
+	background: #f0f0f0;
+	box-shadow: 10px 10px 5px grey;
+	border-radius: 10px;
+}
+
+.servicing, .oServ, .specializing{
+	background: #f0f0f0;
+	box-shadow: 10px 10px 5px grey;
+	border-radius: 10px;
+
+}
+
+
+
+.projpics{
+	padding: 2rem;
+/*	background: white;
+*/	}
+
+.pic{
+	box-shadow: 10px 10px 5px grey;
+	border-radius: 10px;
+
+}
+
+.pic:hover{
+	box-shadow: 2px 2px 15px #03A64F inset;	
+}
+
+.info a{
+	font-size: 100px;
+	text-decoration: none;
+	color: green;
+}
+
+.info a:hover{
+	text-decoration: underline;
+  	color: yellow;
+  	box-shadow: 2px 2px 15px #03A64F inset;
+  	border-radius: 10px;
+  }
+
+  footer{
+  	text-align: center;
+  }

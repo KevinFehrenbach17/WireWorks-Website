@@ -1,0 +1,128 @@
+.container{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 2rem auto;
+	width:1200px;
+	height: auto;
+}
+
+.navi{
+
+}
+
+nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;	
+	flex-wrap: wrap;
+	margin-right: 2rem;
+	margin-left: 2rem;
+
+
+
+
+}
+
+.hero{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 2rem;
+	margin-top: 5rem;
+}
+
+h1, h2, h3{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.aboutUs{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-right: 10rem;
+	padding-left: 10rem;
+	padding-bottom: 5rem;
+	margin-top: 15rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+
+}
+
+.whatWe{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-right: 10rem;
+	padding-left: 10rem;
+	padding-bottom: 5rem;
+	margin-top: 15rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+
+}
+
+.project {
+	margin: 10rem;
+}
+
+.contact {
+	margin: 10rem;
+}
+
+p{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-size: 25px;
+	margin: 0rem;
+}
+
+.moreInfo{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 17rem;
+}
+
+.cards{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.project_head{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+.projpics{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.info{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-right: 5rem;
+	margin-left: 5rem;
+	margin-bottom: 5rem;
+}
+
+
+
+footer{
+	padding-bottom: 2rem;
+}
